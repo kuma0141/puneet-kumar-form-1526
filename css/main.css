@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 1rem;
+  width: 70%;
+  margin: 10%;
+}
+
+legend {
+  box-sizing: border-box;
+    border: 2px;
+    border: solid #DDD;
+    font-size: 2rem;
+  background-color:#fff;
+     padding: 20px;
+}
+
+.name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.email {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+label{
+  display: block;
+}
+
+fieldset {
+  background-color: #F5F5F5;
+  border: 5px;
+  border: solid #DDD;
+}
+
+.btn {
+  font-size: 1rem;
+  background-color: #6495ED;
+  color: #fff;
+  width:18%;
+}
+
+
+@media screen and (min-width: 40rem) {
+  input {
+    margin: 5px 0px;
+    height: 40px;
+    width: 100%;
+    border: 2px solid #DDD;
+  }
+
+  textarea {
+    height: 80px;
+    width:100%;
+    margin: 5px 0px;
+    border: 2px solid #DDD;
+  }
+  .name {
+    width: 49%;
+    float: left;
+  }
+
+  .email{
+    margin-left: 2%;
+    width: 49%;
+    float: right;
+  }
+
+  .message {
+    width:100%;
+  }
+}
+
+
+@media screen and (min-width:25rem) and (max-width: 40rem) {
+  body{
+    width:90%;
+    margin: 2% 5%;
+  }  
+
+  input {
+    margin: 5px 0px;
+    height: 40px;
+    width: 100%;
+    border: 2px solid #DDD;
+  }
+
+  textarea {
+    height: 80px;
+    width:100%;
+    margin: 5px 0px;
+    border: 2px solid #DDD;
+  }
+  .name {
+    width: 49%;
+    float: left;
+  }
+
+  .email{
+    margin-left: 2%;
+    width: 49%;
+    float: right;
+  }
+
+  .message {
+    width:100%;
+  }
+}
+
+@media screen and (max-width:25rem) {
+  body{
+    width:90%;
+    margin: 2% 5%;
+  }  
+
+  input {
+    margin: 5px 0px;
+    height: 40px;
+    width: 100%;
+    border: 2px solid #DDD;
+  }
+
+  textarea {
+    height: 80px;
+    width:100%;
+    margin: 5px 0px;
+    border: 2px solid #DDD;
+  }
+
+  .btn {
+    width:100%;
+  }
+
+}
